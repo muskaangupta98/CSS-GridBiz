@@ -1,0 +1,189 @@
+.main-container {
+  padding: 5px;
+}
+
+.navbar {
+  /* Mentioning both, grid and flexbox approach to design the navbar. */
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+
+  /* display: flex;
+  justify-content: space-between; */
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+  padding: 15px;
+  border: 1px solid black;
+  text-align: center;
+  background-color: #ddd;
+  font-weight: bolder;
+}
+
+.navbar a:hover {
+  background-color: black;
+  color: white;
+  transition: 0.5s;
+}
+
+.membership {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.img {
+  filter: brightness(40%);
+}
+
+.mem {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  border: 1px solid black;
+
+  text-align: center;
+  background-color: #eee;
+  margin-bottom: 4px;
+}
+
+.pro {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  padding-bottom: 70px;
+
+  /* border: 1px solid black; */
+}
+
+.overlap {
+  position: absolute;
+  color: white;
+  bottom: 376px;
+  padding-left: 71px;
+}
+
+.text {
+  bottom: 350px;
+  position: absolute;
+  color: white;
+  padding-left: 71px;
+  font-size: 18px;
+}
+
+.texts {
+  position: absolute;
+  color: white;
+  font-size: 18px;
+  bottom: 320px;
+  left: 89px;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: black;
+  padding: 5px;
+}
+
+.btn {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.icons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  padding: 30px;
+  grid-auto-rows: 165px;
+  padding: 5px;
+}
+
+p {
+  color: black;
+}
+
+.analytics {
+  border: 1px solid black;
+  text-align: center;
+  background-color: #ddd;
+  justify-content: center;
+}
+
+.analytics:hover {
+  background-color: black;
+  cursor: pointer;
+}
+.analytics:hover .txt {
+  color: white;
+}
+
+.marketing {
+  border: 1px solid black;
+  text-align: center;
+  background-color: #ddd;
+}
+
+.marketing:hover {
+  background-color: black;
+  cursor: pointer;
+}
+
+.marketing:hover .txt {
+  color: white;
+}
+
+.dev {
+  border: 1px solid black;
+  text-align: center;
+  background-color: #ddd;
+}
+
+.dev:hover {
+  background-color: black;
+  cursor: pointer;
+}
+
+.dev:hover .txt {
+  color: white;
+}
+
+.support {
+  border: 1px solid black;
+  text-align: center;
+  background-color: #ddd;
+}
+
+.support:hover {
+  background-color: black;
+  cursor: pointer;
+}
+
+.support:hover .txt {
+  color: white;
+}
+
+.icons p {
+  font-size: 20px;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  height: 100px;
+}
+
+.footer p {
+  text-align: center;
+  font-style: italic;
+  font-size: 20px;
+  padding: 10px;
+  color: white;
+}
+
+.hearts {
+  color: red;
+}
