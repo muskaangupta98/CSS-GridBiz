@@ -1,3 +1,14 @@
+@media (max-width: 700px) {
+  .membership {
+    grid-template-areas: "banner" "mem pro";
+  }
+}
+
+@media (max-width: 500px) {
+  .icons {
+    grid-template-areas: "analytics" "marketing" "dev" "support";
+  }
+}
 .main-container {
   padding: 5px;
 }
